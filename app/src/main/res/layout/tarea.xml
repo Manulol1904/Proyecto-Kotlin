@@ -30,10 +30,10 @@
             android:text="Detalles" />
 
         <TextView
-            android:id="@+id/estado"
+            android:id="@+id/Nombre1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estado" />
+            android:text="Nombre" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

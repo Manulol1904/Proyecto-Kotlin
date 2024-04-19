@@ -38,6 +38,19 @@
             android:layout_height="55dp" />
 
         <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/ColorPrimary"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <EditText
             android:id="@+id/EmailR"
             android:layout_width="match_parent"
             android:layout_height="67dp"

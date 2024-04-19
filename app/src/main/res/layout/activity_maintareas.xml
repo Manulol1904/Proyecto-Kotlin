@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/Salir"
+            android:id="@+id/salir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Salir" />
@@ -44,16 +44,5 @@
             android:layout_below="@id/textView2"
             android:layout_weight="1" />
 
-        <Button
-            android:id="@+id/Add"
-            style="@style/Widget.Material3.Button"
-            android:layout_width="69dp"
-            android:layout_height="73dp"
-            android:backgroundTint="@color/ColorPrimary"
-            android:elevation="10dp"
-            android:text="+"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

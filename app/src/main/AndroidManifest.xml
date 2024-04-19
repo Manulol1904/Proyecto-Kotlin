@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
+            android:name=".Complete"
+            android:exported="false" />
+        <activity
+            android:name=".UsuarioAdpapter"
+            android:exported="false" />
+        <activity
             android:name=".Admin"
             android:exported="false" />
         <activity
