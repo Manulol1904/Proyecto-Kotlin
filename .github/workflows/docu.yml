@@ -20,3 +20,9 @@ jobs:
 
       - name: Generate Documentation
         run: ./gradlew dokkaHtml
+
+      - name: Upload Documentation Artifact
+        uses: actions/upload-artifact@v4.3.1
+        with:
+                name: Documentation
+                path: build/docs/dokka
