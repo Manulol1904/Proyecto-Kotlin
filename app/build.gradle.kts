@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
     id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.dokka") version "1.9.20"
 }
 
 android {
@@ -50,4 +51,5 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.2.0-alpha03")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.0-alpha03")
     androidTestImplementation("androidx.test.espresso:espresso-contrib:3.6.0-alpha03")
+    dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:1.9.20")
 }
