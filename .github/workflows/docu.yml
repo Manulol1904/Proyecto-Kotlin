@@ -19,4 +19,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Generate Documentation
-        run: ./gradlew dokka
+        run: ./gradlew dokkaHtml
