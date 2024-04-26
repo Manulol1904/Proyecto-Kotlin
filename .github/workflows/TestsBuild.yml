@@ -1,0 +1,21 @@
+name: testing
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.2
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4.2.0
+        with:
+          java-version: '17'
+          distribution: 'adopt'
+
+      - name: Unit test
+        run: ./gradlew testDebugUnitTest
+
+      - name: Android Test Report
+        uses: asadmansr/android-test-report-action@v1.2.0
+        if: ${{ always() }}
+
